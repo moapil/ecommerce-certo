@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+main{
+
+  background-color:rgb(163, 154, 135);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.tracking-in-expand {
+	animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  color: white;
+  text-shadow:0 0 15px #ffffff, 0 0 15px #ffffff;
+  font-size: 4.2rem;
+}
+
+.tracking-in-expand2 {
+	animation: tracking-in-expand2 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  color: white;
+  text-shadow:0 0 15px #ffffff, 0 0 15px #ffffff;
+  font-size: 1.5rem;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand2 {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+  /* resto das coisas */
+
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: rgb(163, 154, 135);
+  }  
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .footer{
+    background-color: rgb(163, 154, 135);
+    height: 5px;
+  }
+
+  .form-action {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e6e9eca4;
+    height: 20px;
+ }
+
+.con-label {
+    display: block;
+    justify-content: space-around;
+    margin: 50px auto;
+    margin-top: 20px;
+    margin-block: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 20px;
+}
+
+.entre, textarea{
+    display: block;
+    justify-content: center;
+    margin: 0 auto 30px;
+    height: 60px;
+    padding: 5px 9px;
+    font-size: 10px;
+    width: 50%;
+    box-sizing: inherit;
+    resize: none;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 8px;
+}
+
+  hr{
+    border-color: rgba(255, 255, 255, 0.555);
+  }
+
+
+   .labela{
+    background-color: rgb(163, 154, 135);
+   }
+
+   .fot{
+    width: 100%;
+    background-color: black;
+  }
+  
+  .pezin{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff8f;
+    font-size: 1rem;
+  }
+
+  .pezi{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff7c;
+    font-size: 0.5rem;
+  }

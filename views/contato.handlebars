@@ -1,0 +1,38 @@
+
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <div class="conatatos">
+
+        <form action="/contato" method="post">
+
+               <label class="con-label" for="email">Qual o seu email?</label>
+              <input class="entre" type="text" name="email" placeholder="Digite aqui">
+             <br>
+              <label class="con-label" for="mensagem">Digite sua Mensagem?</label>
+              <textarea name="mensagem"  cols="40" rows="10" placeholder="digite aqui"></textarea>
+<br><br>
+            <input class="entre" type="submit" value="Enviar ">
+        </form> 
+        <br>
+        {{#if msg}}
+<p class="con-label" >{{msg}}</p>
+{{else}}
+<p class="con-label">{{ms2}}</p>
+{{/if}}
+<br><br>
+    </div>
+
+<div class="fot">
+    <div class="pezin">
+        <br><br>
+        <pre>Nos visite no instagram! @guitarras_senai</pre>
+        <br><br>
+        <hr>
+        <br>
+        <p class="pezi">Site criado com intuito educacional</p>
+        <br>
+    </div>
+</div>
+

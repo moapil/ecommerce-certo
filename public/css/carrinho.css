@@ -1,0 +1,20 @@
+  /* resto das coisas */
+  
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: rgb(163, 154, 135);
+  }  
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  hr{
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    height: 1px;
+  }
+  

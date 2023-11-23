@@ -1,0 +1,39 @@
+    <link rel="stylesheet" href="./css/cadastrar.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+<br><br><h1>Atualização do Produto</h1>
+<br><br><hr><br><br>
+<div class="desc back">
+<form action="/atualiza" method="post">
+    <div class="btns">
+        <div>
+            <label for="id">Id do Produto:</label><br>
+            <input type="text" name="id" placeholder="Id"><br>
+            <label for="nome">Nome do Produto:</label><br>
+            <input type="text" name="nome" placeholder="Nome da guitarra"><br>
+        </div>
+        <div>
+            <label for="quantidadeEstoque">Quantidade do Produto:</label><br>
+            <input type="text" name="quantidadeEstoque" placeholder="Quantidade"><br>
+            <label for="precoUnitario">Preço do Produto:</label><br>
+            <input type="text" name="precoUnitario" placeholder="Unitário"><br>
+            <br>
+            <button type="submit">Enviar</button>
+        </div>
+    </div>
+</form>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{/if}} 
+{{#if msgB}}
+    <p>{{msgB}}</p>
+{{/if}} 
+</div>
+</div>
+</div>
+        </div>
+        <br><br><hr><br><br><br>
+         <button onclick="location.href='/gerenciador'">Voltar para página de gerenciamento</button>
+         <br><br>
+</div>

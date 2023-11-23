@@ -18,3 +18,28 @@
     height: 1px;
   }
   
+
+p, .carrinho {
+    display: block;
+    justify-content: space-around;
+    margin: 50px auto;
+    margin-top: 20px;
+    margin-block: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 20px;
+}
+button{
+  display: block;
+  justify-content: center;
+  margin: 0 auto 30px;
+  height: 60px;
+  padding: 5px 9px;
+  font-size: 12px;
+  width: 50%;
+  box-sizing: inherit;
+  resize: none;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 8px;
+}

@@ -1,0 +1,28 @@
+    <link rel="stylesheet" href="./css/cadastrar.css">
+    <link rel="stylesheet" href="./css/main.css">
+<br><br>
+<div class="tela">
+<h2>Cadastro de Produtos</h2>
+<br><hr><br>
+    <div class="desc back">
+        <form action="/cadastrar_prod" method="post">
+            <label class="con-label" for="nome">Nome do Produto:</label><br>
+            <input class="entre" type="text" name="nome" placeholder="Nome da guitarrra"><br>
+            <label class="con-label" for="quantidadeEstoque">Quantidade do Produto:</label><br>
+            <input class="entre" type="text" name="quantidadeEstoque" placeholder="quantidade"><br>
+            <label class="con-label" for="precoUnitario">Preço unitário do Produto:</label><br>
+            <input class="entre" type="text" name="precoUnitario" placeholder="unitário"><br>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+        {{#if msg}}
+            <p>{{msg}}</p>
+        {{/if}} 
+        {{#if msgB}}
+            <p>{{msgB}}</p>
+        {{/if}} 
+        </div>
+        <br><br><hr><br><br><br>
+         <button onclick="location.href='/gerenciador'">Voltar para página de gerenciamento</button>
+         <br><br>
+</div>

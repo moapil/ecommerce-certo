@@ -1,0 +1,25 @@
+    <link rel="stylesheet" href="./css/cadastrar.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+<div class="tela">
+<h1>Atualizar informações do usuário</h1>
+<br>
+    <div class="desc back ">
+        <form action="/perfil" method="post">
+            <label for="email">Digite seu email cadastrado</label><br>
+            <input type="text" name="email"><br>  
+            <label for="nome">Digite seu novo Nome</label><br>
+            <input type="text" name="nome"><br>    
+            <label for="senha">Digite sua nova Senha</label><br>
+            <input type="password" name="senha"><br><br>
+            <button type="submit">Atualizar</button>
+            <br>
+        </form>
+        {{#if msg}}
+            <p>{{msg}}</p>
+        {{/if}}
+        {{#if msgB}}
+            <p>{{msgB}}</p>
+        {{/if}}
+    </div>
+</div>

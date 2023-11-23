@@ -2,22 +2,24 @@
     <link rel="stylesheet" href="./css/listar.css">
 <br><br>
 
-<h1>Lista dos Produtos Cadastrados</h1>
+<h1>Lista dos Clientes Cadastrados</h1>
 <br><hr><br>
 <table>
     <thead>
         <th>ID</th>
         <th>Nome</th>
-        <th>Qtde Estoque</th>
-        <th>Preço R$</th>
+        <th>E-mail</th>
+        <th>Telefone</th>
+        <th>Cpf</th>
     </thead>
     <tbody>
-    {{#each valores}}
+    {{#each dados}}
         <tr>
             <td>{{this.id}}</td>
             <td>{{this.nome}}</td>
-            <td>{{this.quantidadeEstoque}}</td>
-            <td>{{this.precoUnitario}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.telefone}}</td>
+            <td>{{this.cpf}}</td>
         </tr>
     {{/each}} 
     </tbody>

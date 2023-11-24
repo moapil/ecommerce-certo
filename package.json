@@ -14,5 +14,13 @@
     "mysql2": "^3.6.5",
     "sequelize": "^6.35.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moapil/ecommerce-certo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moapil/ecommerce-certo/issues"
+  },
+  "homepage": "https://github.com/moapil/ecommerce-certo#readme",
   "description": ""
 }

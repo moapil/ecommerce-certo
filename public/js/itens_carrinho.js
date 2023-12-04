@@ -5,8 +5,8 @@ adicionar_carrinho.forEach((botao) => {
     const nome = botao.getAttribute("data-nome")
     const qtde = Number(botao.getAttribute("data-qtde"))
     const preco = Number(botao.getAttribute("data-preco"))
-    const cod_prod = Number(botao.getAttribute("cod-prod"))
-    const item = { cod_prod, nome, qtde, preco };
+    const id = Number(botao.getAttribute("data-id"))
+    const item = { id, nome, qtde, preco };
 
     // Recupere o carrinho atual do Local Storage
     const carrinho = JSON.parse(localStorage.getItem("carrinho")) || []

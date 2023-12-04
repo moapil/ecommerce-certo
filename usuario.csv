@@ -1,0 +1,3 @@
+"id";"nome";"email";"telefone";"cpf";"senha";"tipo"
+1;"Ana Orsi";"ana@gmail.com";48123;321321;"$2b$10$EK3gypdGVkXW1HhSo9R/IOhuln59oJacV/uQwhe3PCvziHRLY0pie";"admin"
+2;"Leonardo Lorenz Zabel";"leo@gmail.com";47123;123123;"$2b$10$zUuJ/cGNM9jWNpCF1e//PuDspkEaeW434GTCk7O03lHvp9lIVhig2";"cliente"

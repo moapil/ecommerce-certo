@@ -2,6 +2,7 @@ const itens_carrinho = document.getElementById("itens-carrinho")
 const qtde_total = document.getElementById("qtde-total")
 const total_carrinho = document.getElementById("total-carrinho")
 const limpar_carrinho_botao = document.getElementById("limpar-carrinho")
+const botao_comprar = document.getElementById("botao-comprar")
 
 // Recupere os itens do carrinho do Local Storage
 const carrinho = JSON.parse(localStorage.getItem("carrinho")) || []
@@ -32,7 +33,7 @@ limpar_carrinho_botao.addEventListener("click", () => {
 })
 
 //fazendo a compra
-const botao_comprar = document.getElementById("botao-comprar")
+
 
 botao_comprar.addEventListener("click", () => {
   // Recupere os dados do carrinho do Local Storage

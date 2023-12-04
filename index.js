@@ -302,6 +302,7 @@ app.post('/comprar', async(req,res)=>{
         console.error('Erro ao atualizar os dados '+ error)
         res.status(500).json({message: "Erro ao processar a compra"})
     }
+    res.status(200).json({message: "produtos ok"})
 })
 
 // ============= renderizando ======================
